@@ -37,7 +37,7 @@ document.getElementById('send-button').addEventListener('click', function() {
 
 
   async function getChatGPTResponse(userInput) {
-    const apiKey = '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';
+    const apiKey = '';
   
     try {
       const response = await fetch('https://api.openai.com/v1/chat/completions', {
